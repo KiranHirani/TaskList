@@ -1,0 +1,21 @@
+/* a:hover{
+    background-color: white;
+    color:white;
+} */
+
+a{
+    color:white;
+}
+.filter{
+    font-size:500px;
+}
+body{
+    background-image: url(pic4.jpg);
+    background-position:center;
+    background-size: cover;
+
+}
+.container{
+    margin-top: 30px;
+    /* display:'none' */
+}

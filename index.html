@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Task List</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col s12">
+                <div id="main" class="card">
+                    <div class="card-content">
+                        <span class="card-title">Task List</span>
+                        <div class="row">
+                            <form action="" id="task-form">
+                                <div class="input-field col s12">
+                                    <input type="text" name="task" id="task">
+                                    <label for="task" style="font-size:12px;">New Task</label>
+                                </div>
+                                <input type="submit" value="Add task" class="btn">
+                            </form>
+                        </div>
+                    </div>
+                    <div class="card-action">
+                        <h5 id="task-title">Tasks</h5>
+                        <div class="input-field col s12">
+                            <input type="text" name="filter" id="filter">
+                            <label for="filter" class="filter" style="font-size:12px;">Filter Tasks</label>
+                        </div>
+                        <ul class="collection"></ul>
+
+                        <a href="#" class="clear-tasks btn btn black">Clear Tasks</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+
+</html>
